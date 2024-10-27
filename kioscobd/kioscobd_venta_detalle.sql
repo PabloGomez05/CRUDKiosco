@@ -31,10 +31,10 @@ CREATE TABLE `venta_detalle` (
   `Id_Producto` int DEFAULT NULL,
   PRIMARY KEY (`Id_Venta_Detalle`),
   KEY `Id_Venta` (`Id_Venta`),
-  KEY `Id_Producto` (`Id_Producto`),
+  KEY `venta_detalle_ibfk_2` (`Id_Producto`),
   CONSTRAINT `venta_detalle_ibfk_1` FOREIGN KEY (`Id_Venta`) REFERENCES `venta` (`Id_Venta`),
-  CONSTRAINT `venta_detalle_ibfk_2` FOREIGN KEY (`Id_Producto`) REFERENCES `producto` (`Id_Producto`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  CONSTRAINT `venta_detalle_ibfk_2` FOREIGN KEY (`Id_Producto`) REFERENCES `producto` (`Id_Producto`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,6 +43,7 @@ CREATE TABLE `venta_detalle` (
 
 LOCK TABLES `venta_detalle` WRITE;
 /*!40000 ALTER TABLE `venta_detalle` DISABLE KEYS */;
+INSERT INTO `venta_detalle` VALUES (2,2,3700,7400,4,2),(3,2,2000,4000,5,6),(4,2,4000,8000,6,5),(5,2,2000,4000,7,6),(6,2,3700,7400,8,2),(7,5,3200,16000,8,3),(8,1,3700,3700,9,1),(9,1,3700,3700,10,2),(11,1,4400,4400,12,7),(13,2,3700,7400,14,1);
 /*!40000 ALTER TABLE `venta_detalle` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-08  1:35:17
+-- Dump completed on 2024-10-27 17:10:54

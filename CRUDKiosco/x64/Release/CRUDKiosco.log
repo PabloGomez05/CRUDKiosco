@@ -1,10 +1,11 @@
-﻿  Conexionbd.cpp
-  main.cpp
-  producto.cpp
+﻿  main.cpp
+C:\Users\diego\OneDrive\Escritorio\SistemaCRUDKiosco\CRUDKiosco\CRUDKiosco\main.cpp(555,38): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\diego\OneDrive\Escritorio\SistemaCRUDKiosco\CRUDKiosco\CRUDKiosco\main.cpp(913,38): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
   usuario.cpp
   venta.cpp
   Generando código
-  Previous IPDB not found, fall back to full compilation.
-  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  2 of 392 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
   Generación de código finalizada
   CRUDKiosco.vcxproj -> C:\Users\diego\OneDrive\Escritorio\SistemaCRUDKiosco\CRUDKiosco\x64\Release\CRUDKiosco.exe

@@ -28,7 +28,7 @@ CREATE TABLE `producto` (
   `Precio` int NOT NULL,
   `Cant_Stock` int NOT NULL,
   PRIMARY KEY (`Id_Producto`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,6 +37,7 @@ CREATE TABLE `producto` (
 
 LOCK TABLES `producto` WRITE;
 /*!40000 ALTER TABLE `producto` DISABLE KEYS */;
+INSERT INTO `producto` VALUES (1,'Fanta 1,75LTS',3700,20),(2,'Coca Cola 1,75',3700,6),(3,'Coca Cola 1,5LT',3200,15),(5,'Pepsi',4000,38),(6,'Cunniston 1,75LTS',2000,1),(7,'Sprite 3LTS',4400,90),(14,'Seven Up 3LTS',3200,1);
 /*!40000 ALTER TABLE `producto` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-08  1:35:17
+-- Dump completed on 2024-10-27 17:10:54

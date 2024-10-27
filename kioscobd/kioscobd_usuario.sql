@@ -24,11 +24,11 @@ DROP TABLE IF EXISTS `usuario`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usuario` (
   `Id_Usuario` int NOT NULL AUTO_INCREMENT,
-  `Nomb_Usuario` varchar(50) NOT NULL,
-  `Contraseña` varchar(100) NOT NULL,
-  `Rol` enum('Empleado','Dueño') DEFAULT NULL,
+  `Nomb_Usuario` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Contrasena` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Rol` enum('Propietario','Empleado') COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`Id_Usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'Diego','1234','Dueño'),(2,'Pablo','2021','Empleado'),(3,'Ruben','123','Empleado');
+INSERT INTO `usuario` VALUES (1,'Diego','1234','Propietario'),(2,'Pablo','2021','Empleado'),(3,'Ruben','123','Empleado'),(4,'Profesor','1234567','Propietario');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-08  1:35:17
+-- Dump completed on 2024-10-27 17:10:54

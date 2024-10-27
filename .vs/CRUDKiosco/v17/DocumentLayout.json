@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{6D4E4F66-BD5A-40E3-A582-97E9EC0FC946}|CRUDKiosco\\CRUDKiosco.vcxproj|solutionrelative:CRUDKiosco\\producto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D4E4F66-BD5A-40E3-A582-97E9EC0FC946}|CRUDKiosco\\CRUDKiosco.vcxproj|C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\venta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D4E4F66-BD5A-40E3-A582-97E9EC0FC946}|CRUDKiosco\\CRUDKiosco.vcxproj|solutionrelative:CRUDKiosco\\venta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D4E4F66-BD5A-40E3-A582-97E9EC0FC946}|CRUDKiosco\\CRUDKiosco.vcxproj|C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\Conexionbd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6D4E4F66-BD5A-40E3-A582-97E9EC0FC946}|CRUDKiosco\\CRUDKiosco.vcxproj|solutionrelative:CRUDKiosco\\Conexionbd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -30,27 +26,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\main.cpp",
+              "RelativeDocumentMoniker": "CRUDKiosco\\main.cpp",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\main.cpp",
+              "RelativeToolTip": "CRUDKiosco\\main.cpp",
+              "ViewState": "AQIAALMDAAAAAAAAAAAgwLgDAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T21:29:57.835Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "venta.h",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\venta.h",
-              "RelativeDocumentMoniker": "CRUDKiosco\\venta.h",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\venta.h",
-              "RelativeToolTip": "CRUDKiosco\\venta.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T01:52:20.012Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -60,9 +58,10 @@
               "RelativeDocumentMoniker": "CRUDKiosco\\usuario.h",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\usuario.h",
               "RelativeToolTip": "CRUDKiosco\\usuario.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACYAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T01:51:24.17Z"
+              "WhenOpened": "2024-10-26T18:33:53.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,33 +71,22 @@
               "RelativeDocumentMoniker": "CRUDKiosco\\producto.h",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\producto.h",
               "RelativeToolTip": "CRUDKiosco\\producto.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T01:50:33.865Z"
+              "WhenOpened": "2024-10-26T18:33:51.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Conexionbd.h",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\Conexionbd.h",
               "RelativeDocumentMoniker": "CRUDKiosco\\Conexionbd.h",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\Conexionbd.h",
               "RelativeToolTip": "CRUDKiosco\\Conexionbd.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-08T01:50:05.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\main.cpp",
-              "RelativeDocumentMoniker": "CRUDKiosco\\main.cpp",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\SistemaCRUDKiosco\\CRUDKiosco\\CRUDKiosco\\main.cpp",
-              "RelativeToolTip": "CRUDKiosco\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-08T01:45:51.024Z",
+              "WhenOpened": "2024-10-24T00:22:18.652Z",
               "EditorCaption": ""
             }
           ]
