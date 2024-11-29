@@ -50,8 +50,8 @@ El sistema permite gestionar:
 ---
 
 ## 🤝 Contribuyentes
--Gomez Pablo Hernán
--Abelleyra Diego
+- Gomez Pablo Hernán
+- Abelleyra Diego
 - Moyano Rubén
 
 
